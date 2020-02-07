@@ -3,10 +3,7 @@ import os
 from randomaccessfile import randomaccessfile
 from bplustree_db import INTERNAL_NODE, LEAF_NODE, NEGATIVE_INFINITY
 
-## the first worry, insert value into empty internal point
 
-## support node split
-## and a delete framework occurs
 class internal_node:
     def __init__(self, page_idx):
         self.keys = []
