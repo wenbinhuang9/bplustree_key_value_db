@@ -1,5 +1,5 @@
 # bplustree_key_value_db
-An in-disk b+ tree implementation
+A key value database based on an in-disk b+ tree implementation
 
 1. supporting get, insert ,delete, and range query.
 2. with full unit tests
